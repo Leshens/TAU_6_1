@@ -8,7 +8,7 @@ public class Sum {
         double sum=0;
         double sums=0;
         for (double percentage:percentages){
-            sum+= percentage;
+            sum-= percentage;
         }
         return sum;
     }
