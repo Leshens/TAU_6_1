@@ -5,11 +5,10 @@ public class Sum {
 
     }
     public double sum(double[] percentages) {
-        double sum=0;
         double sums=0;
         for (double percentage:percentages){
-            sum+= percentage;
+            sums+= percentage;
         }
-        return sum;
+        return sums;
     }
 }
